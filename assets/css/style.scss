@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: red;
+    font-family: 'Noto Sans', sans-serif;
+
+    nav{
+        background-color: #107C41;
+        color: white;
+
+        .nav-heading{
+            text-align: center;
+            padding: 0.80rem;
+        }
+    }
+
+    .nav-options{
+        background-color: rgb(243, 242, 241);
+        color: rgb(50, 49, 48);
+        font-size: 0.90rem;
+        font-weight: 300;
+
+        ul{
+            list-style: none;
+            display: flex;
+            padding-inline-start: 0;
+            margin: 0;
+            margin-left: 0.25rem;
+            
+            li{
+                padding: 0.35rem 1rem;
+
+                &:hover{
+                    font-weight: 600;
+                    cursor: pointer;
+                    background-color: rgb(237, 235, 233);
+                }
+
+                #active-list-option{
+                    padding-bottom: 0.25rem;
+                    font-weight: 600;
+                    border-bottom: 3px solid #107C41;
+                }
+            }
+
+            
+        }
+
+            
+    }
+}
